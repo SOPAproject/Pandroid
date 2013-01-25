@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/hello"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button0"
+        android:layout_toRightOf="@+id/spinner"
+        android:height="@dimen/defaulttext"
+        android:hint="@string/hint"
+        android:maxHeight="@dimen/defaulttext"
+        android:text="@string/text"
+        android:textSize="@dimen/defaulttext" >
+
+        <requestFocus/>
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="40dip"
+        android:layout_height="36dip"
+        android:layout_alignBottom="@id/editText1"
+        android:layout_alignParentTop="true"
+        android:hint="@string/hint" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/editText1"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:height="@dimen/defaulttext"
+        android:text="@string/set"
+        android:textSize="@dimen/defaulttext" >
+
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>

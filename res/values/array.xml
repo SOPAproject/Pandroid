@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="value">
+        <item>http://staff.aist.go.jp/ashihara-k/resource/sopa22k.sopa</item>
+        <item>http://staff.aist.go.jp/ashihara-k/resource/panther22k.sopa</item>
+        <item>http://staff.aist.go.jp/ashihara-k/resource/narration22k.sopa</item>
+        <item >http://staff.aist.go.jp/ashihara-k/resource/walkers22k.sopa</item>
+    </string-array>
+</resources>

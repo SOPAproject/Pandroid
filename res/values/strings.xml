@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Pandroid version 1.0  Copyright 2012, AIST</string>
+    <string name="app_name">Pandroid</string>
+    <string name="text">http://staff.aist.go.jp/ashihara-k/resource/sopa22k.sopa</string>
+    <string name="hint">Enter URL of a SOPA file</string>
+    <string name="set">Set</string>
+
+</resources>
